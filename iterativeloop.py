@@ -14,6 +14,8 @@ while x <= 51:
   total += x
   x += 1
 
-print('The interation by which the total of previous in the series completed the jump past the limit asked is', x-1) # The reason this is - 1 is because the trigger was set once the count
-           # went past 100 and explicitly added 1, which is then printed. The actual
-           # solution is a result of line 15 being reduced by 1.
+print('The interation by which the total of previous in the series completed the jump past the limit asked is', x-1)
+           # The reason this is - 1 is because the trigger was increased once
+           # the count went past 100 and, as instructed, explicitly added 1, which
+           # is then printed. The actual solution is a result of line 15 being
+           # reduced by 1.
